@@ -20,7 +20,7 @@ except FileNotFoundError:
 
 def get_client_ip():
     #naive DHCP, like very naive. TODO FIX LOL
-    return str(randint(100,250)) + "." + str(randint(1,255))
+    return "10.69." + str(randint(100,250)) + "." + str(randint(1,255))
 
 def wireguard_add_new_client(client_name, client_pubkey, client_ip):
     
