@@ -16,6 +16,7 @@ or (to be implemented)
 
 `python -c "$(curl http://vpn.example.com/script.py)" --api_endpoint http://vpn.example.com/api/ --api_token VGhlIGdhbWU=`
 
+You can also download the script, and read it before executing, to make sure no monkey buisness is happening in it.
 
 ### How to server
 
