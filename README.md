@@ -33,7 +33,7 @@ server {
   }
 ```
 
-2. Populate private/wireguard_config.json
+2. Populate `private/wireguard_config.json`:
 
 ```
 {
@@ -46,6 +46,8 @@ server {
 ```
 
 3. run `run.sh`
+
+4. When a client will (succesfully) excute his script, a new entry will appear on your server, in `private/configs_to_append.txt`. Now you can append it manually to your server config.
 
 
 ### Project roadmap
