@@ -8,7 +8,7 @@ I'm gonna keep on improving it in my free time - while super-insecure in it's cu
 
 If you want to read below, you should be somehow familiar with wireguard concept - I recommend this guide: https://www.ckn.io/blog/2017/11/14/wireguard-vpn-typical-setup/
 
-### Use cases
+## Use cases
 
 #### 1. Let's imagine you have:
 * a bunch of raspberry-pi's at your home
@@ -27,7 +27,7 @@ You give each member a "one-liner" bash script. Now all they have to do is:
 * `sudo mv` the generated config to the /etc/wireguard/. location
 * `wg-quick up` the network
 
-### How to client
+## How to client
 
 You should execute an one-liner which will download and execute python script, leaving you with complete client config file.
 
@@ -39,7 +39,7 @@ or (to be implemented)
 
 You can also download the script, and read it before executing, to make sure no monkey buisness is happening in it.
 
-### How to server
+## How to server
 
 1. Configure password acces for the API! This may be achieved using a proper nginx config - example:
 ```
@@ -72,7 +72,7 @@ server {
 4. When a client will (succesfully) excute his script, a new entry will appear on your server, in `private/configs_to_append.txt`. Now you can append it manually to your server config.
 
 
-### Project roadmap
+## Project roadmap
 
 * Allow adding config via token with expiration date. Leave interactive login-based authentication as an alternative.
 * Allow automatic client adding and network restarting
