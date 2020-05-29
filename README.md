@@ -1,4 +1,4 @@
-# Wireguy - simple wireguard infrastructure manager
+# Wireguy - stupid wireguard infrastructure manager
 
 Wireguard VPN may be the easiest way to provide access to linux-based infrastructure hidden behind NAT-ted networks.
 
