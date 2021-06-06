@@ -1,0 +1,8 @@
+{
+  "wgnet_name":"<your_network_name>", #This will affect the interface name on clients
+  "allowed_ips" : "10.69.0.0/16", #just an example, modify this for your needs
+  "public_key" : "<key>", # The server's pubkey
+  "addr" : "vpn.vcc.earth", #address the clients will connect to
+  "port" : "58008" # and the port
+}
+
